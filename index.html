@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Greeting</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async type="module" src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js"></script>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Happy Valentine's Day ❤️</h1>
+        <p class="message">
+            Hey <span class="highlight">Valentine</span>, are you a <span class="code">for loop</span>?
+            Because you keep running in my mind **infinitely!**
+        </p>
+        <p class="funfact">Fun Fact: Love and recursion both have infinite depth! 😍</p>
+
+        <div class="extra-content">
+            <p>🌹 Just like a perfect algorithm, you're the **O(1)** to my **heart()**.</p>
+            <p>💻 You're my **main()** function—I can't run without you!</p>
+            <a style="color:purple;" href="https://forms.gle/zpRFkgEB9tgRNpiz6">Click Here to give a feedbackform</a>
+        </div>
+    </div>
+
+    <!-- Chatbot Container -->
+    <div class="chat-container">
+        <h2>Chat with LoveBot 🤖</h2>
+        <zapier-interfaces-chatbot-embed is-popup="false" chatbot-id="cm7245sqc0027d3q12zgacfug" height="600px" width="400px"></zapier-interfaces-chatbot-embed>
+    </div>
+
+    <!-- Floating Chat Icon -->
+
+    <div class="chat-icon" onclick="toggleChat()">
+        <img height="80px" src="https://res.cloudinary.com/dicnnb1t2/image/upload/v1739440041/s8wgyggfuvm6kaut23ka.png" alt="Chatbot">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
